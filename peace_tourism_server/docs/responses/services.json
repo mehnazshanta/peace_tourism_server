@@ -1,0 +1,128 @@
+[
+    {
+        "_id": "636b7e9d4885c74028686676",
+        "packageName": "Europe",
+        "price": "24000",
+        "image": {
+            "0": {}
+        },
+        "items": [
+            {
+                "itemName": "One Standard week"
+            },
+            {
+                "itemName": "2 Countries"
+            },
+            {
+                "itemName": "Free Videography"
+            },
+            {
+                "itemName": "Free Meal"
+            }
+        ],
+        "imgURL": "https://i.ibb.co/SJJCqL0/service-premium.jpg",
+        "date": "Fri Dec 16 2021"
+    },
+    {
+        "_id": "636b7e9d4885c74028686671",
+        "packageName": "Cox's Bazar",
+        "price": "11000",
+        "image": {
+            "0": {}
+        },
+        "items": [
+            {
+                "itemName": "Cox's Bazar"
+            },
+            {
+                "itemName": "camping in the beach"
+            }
+        ],
+        "imgURL": "https://i.ibb.co/RS9Lrq3/service-classic.jpg",
+        "date": "Fri Dec 16 2021"
+    },
+    {
+        "_id": "636b7e9d4885c74028686675",
+        "packageName": "Katar",
+        "price": "12000",
+        "image": {
+            "0": {}
+        },
+        "items": [
+            {
+                "itemName": "Katar"
+            },
+            {
+                "itemName": "2 Days & 1 Night"
+            },
+            {
+                "itemName": "5 Start Hotel"
+            }
+        ],
+        "imgURL": "https://i.ibb.co/M2B1PWS/2.jpg",
+        "date": "Fri Dec 16 2021"
+    },
+    {
+        "_id": "636b7e9d4885c74028686673",
+        "packageName": "USA",
+        "price": "17000",
+        "image": {
+            "0": {}
+        },
+        "items": [
+            {
+                "itemName": "USA"
+            },
+            {
+                "itemName": "2 Days & 1 Night"
+            },
+            {
+                "itemName": "5 Start Hotel"
+            }
+        ],
+        "imgURL": "https://i.ibb.co/dtDVM9D/4.jpg",
+        "date": "Fri Dec 16 2021"
+    },
+    {
+        "_id": "636b7e9d4885c74028686674",
+        "packageName": "Australia",
+        "price": "9000",
+        "image": {
+            "0": {}
+        },
+        "items": [
+            {
+                "itemName": "Sydney"
+            },
+            {
+                "itemName": "2 Days & 1 Night"
+            },
+            {
+                "itemName": "5 Start Hotel"
+            }
+        ],
+        "imgURL": "https://i.ibb.co/VwvbT2k/3.jpg",
+        "date": "Fri Dec 16 2021"
+    },
+    {
+        "_id": "636b7e9d4885c74028686672",
+        "packageName": "Dubai",
+        "price": "14000",
+        "image": {
+            "0": {}
+        },
+        "items": [
+            {
+                "itemName": "Abu Dhabi"
+            },
+            {
+                "itemName": "2 Days & 1 Night"
+            },
+            {
+                "itemName": "5 Start Hotel"
+            }
+        ],
+        "imgURL": "https://i.ibb.co/ZHKyJBS/1.jpg",
+        "date": "Fri Dec 16 2021"
+    }
+]
