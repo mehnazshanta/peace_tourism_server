@@ -10,7 +10,7 @@ require("dotenv").config();
 app.use(cors());
 app.use(express.json());
 
-const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.naqs43w.mongodb.net/?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://peace_tourism:zFXnCTWPeO9X9LAz@cluster0.naqs43w.mongodb.net/?retryWrites=true&w=majority`;
 const DB = "peaceTourismDB";
 const COL_SERVICES = "services";
 const COL_BOOKINGS = "bookings";
