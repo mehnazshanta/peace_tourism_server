@@ -10,7 +10,13 @@ require("dotenv").config();
 app.use(cors());
 app.use(express.json());
 
-const uri = `mongodb+srv://peace_tourism:zFXnCTWPeO9X9LAz@cluster0.naqs43w.mongodb.net/?retryWrites=true&w=majority`;
+// System vars
+const DB_USER = "peace_tourism";
+const DB_PASS = "zFXnCTWPeO9X9LAz";
+const ACCESS_TOKEN_SECRET =
+  "bcd8f28f9eb07a0ab125f1607aad4347dafd91a7956548f902227e6f17f726d47910008448bebba1e1a8b5c39c632a196cc21f16c1919942ef1fc7cffe22edfd";
+
+const uri = `mongodb+srv://${DB_USER}:${DB_PASS}@cluster0.naqs43w.mongodb.net/?retryWrites=true&w=majority`;
 const DB = "peaceTourismDB";
 const COL_SERVICES = "services";
 const COL_BOOKINGS = "bookings";
@@ -29,7 +35,7 @@ async function run() {
     //  JWT method
     app.post("/jwt", (req, res) => {
       const user = req.body;
-      const token = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, {
+      const token = jwt.sign(user, ACCESS_TOKEN_SECRET, {
         expiresIn: "1d",
       });
       res.send({ token });
